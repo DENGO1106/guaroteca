@@ -21,7 +21,7 @@ export default async function TragoDetalle({ params }) {
         
         {/* Boton volver */}
         <Link 
-          href="/" 
+          href="/catalogo" 
           className="inline-flex items-center text-amber-400 hover:text-amber-300 mb-8 font-medium transition-colors"
         >
           ← Volver a la galería
