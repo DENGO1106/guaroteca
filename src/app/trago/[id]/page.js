@@ -1,5 +1,6 @@
 import { getTrago } from '@/lib/notion';
 import Link from 'next/link';
+export const runtime = 'edge';
 
 export default async function TragoDetalle({ params }) {
   // Sacamos el ID que viene en la URL

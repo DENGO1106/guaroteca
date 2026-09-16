@@ -1,5 +1,6 @@
 import { getTragos } from '@/lib/notion';
 import CatalogoClient from '@/components/CatalogoClient';
+export const runtime = 'edge';
 
 export default async function CatalogoPage() {
   const tragos = await getTragos();
